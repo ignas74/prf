@@ -1,7 +1,8 @@
 import Dashboard from '/views/Dashboard.js'
 import Cv from '/views/Cv.js'
+import ContactForm from '/views/ContactForm.js'
 
-document.querySelectorAll('.link').forEach(element => {
+document.querySelectorAll('#nav > a').forEach(element => {
     element.addEventListener('click', event => {
         event.preventDefault()
         const path = event.target.getAttribute('href')
@@ -13,6 +14,7 @@ document.querySelectorAll('.link').forEach(element => {
 const routes = new Map([
     ['/home', Dashboard],
     ['/cv', Cv],
+    ['/contact', ContactForm],
 ])
 
 function renderView(path) {

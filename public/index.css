@@ -27,3 +27,11 @@
     justify-content: center;
     align-items: center;
 }
+
+#response-ok {
+    background-color: green;
+}
+
+#response-fail {
+    background-color: red;
+}

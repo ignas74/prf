@@ -5,16 +5,20 @@
     <meta charseSt="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"
         integrity="sha512-qa1o08MA0596eSNsnkRv5vuGloSKUhY09O31MY2OJpODjUVlaL0GOJJcyt7J7Z61FiEgHMgBkH04ZJ+vcuLs/w=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./pdf/render_cv.js"></script>
 
     <link rel="stylesheet" type="text/css" href="/index.css" />
 
+    <script src="./pdf/render_cv.js"></script>
+    <script src="./form/form.js"></script>
+    <script src="./form/form_validation.js"></script>
+
     <script type="module" src="./views/Dashboard.js"></script>
     <script type="module" src="./views/Cv.js"></script>
+    <script type="module" src="./views/ContactForm.js"></script>
 
     <script type="module" src="./index.js"></script>
 </head>
@@ -24,7 +28,7 @@
         <nav id='nav'>
             <a href="/home" class="link" data-link>Home</a>
             <a href="/cv" class="link" data-link>CV</a>
-            <a href="mailto:ignaslapinskas@protonmail.com">Contact</a>
+            <a href="/contact" class="link" data-link>Contact</a>
         </nav>
     </header>
 

@@ -7,6 +7,7 @@ export default class Cv extends AbstractView {
 
     render(el) {
         el.innerHTML = `
+            <h1>Viewing Curriculum Vitae</h1>
             <canvas id="pdf-render"></canvas>
         `
 
